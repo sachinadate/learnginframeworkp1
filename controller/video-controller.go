@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"gilab.com/pragmaticreviews/golang-gin-poc/entity"
-	"gilab.com/pragmaticreviews/golang-gin-poc/service"
-	"gilab.com/pragmaticreviews/golang-gin-poc/validators"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator"
+	"github.com/sachinadate/learnginframeworkp1/entity"
+	"github.com/sachinadate/learnginframeworkp1/service"
+	"github.com/sachinadate/learnginframeworkp1/validators"
 )
 
 type VideoController interface {

@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
-	"gilab.com/pragmaticreviews/golang-gin-poc/controller"
-	"gilab.com/pragmaticreviews/golang-gin-poc/middleware"
-	"gilab.com/pragmaticreviews/golang-gin-poc/repository"
-	"gilab.com/pragmaticreviews/golang-gin-poc/service"
 	"github.com/gin-gonic/gin"
+	"github.com/sachinadate/learnginframeworkp1/controller"
+	"github.com/sachinadate/learnginframeworkp1/middleware"
+	"github.com/sachinadate/learnginframeworkp1/repository"
+	"github.com/sachinadate/learnginframeworkp1/service"
 	swaggerFiles "github.com/swaggo/files"     // swagger embed files
 	ginSwagger "github.com/swaggo/gin-swagger" // gin-swagger middleware
 	"github.com/swaggo/swag/example/basic/docs"

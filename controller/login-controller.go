@@ -3,9 +3,9 @@ package controller
 import (
 	"fmt"
 
-	"gilab.com/pragmaticreviews/golang-gin-poc/dto"
-	"gilab.com/pragmaticreviews/golang-gin-poc/service"
 	"github.com/gin-gonic/gin"
+	"github.com/sachinadate/learnginframeworkp1/dto"
+	"github.com/sachinadate/learnginframeworkp1/service"
 )
 
 type LoginController interface {

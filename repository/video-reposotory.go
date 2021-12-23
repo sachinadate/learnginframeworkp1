@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"gilab.com/pragmaticreviews/golang-gin-poc/entity"
+	"github.com/sachinadate/learnginframeworkp1/entity"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
@@ -54,11 +54,3 @@ func (db *database) FindAll() []entity.Video {
 	db.connection.Set("gorm:auto_preload", true).Find(&videos)
 	return videos
 }
-
-
-
-
-
-
-
-

@@ -1,8 +1,8 @@
 package service
 
 import (
-	"gilab.com/pragmaticreviews/golang-gin-poc/entity"
-	"gilab.com/pragmaticreviews/golang-gin-poc/repository"
+	"github.com/sachinadate/learnginframeworkp1/entity"
+	"github.com/sachinadate/learnginframeworkp1/repository"
 )
 
 type VideoService interface {

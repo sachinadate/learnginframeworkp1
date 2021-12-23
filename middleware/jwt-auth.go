@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"gilab.com/pragmaticreviews/golang-gin-poc/service"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	"github.com/sachinadate/learnginframeworkp1/service"
 )
 
 func AuthorizeJWT() gin.HandlerFunc {
