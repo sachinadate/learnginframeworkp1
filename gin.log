@@ -1,0 +1,28 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- 
+	- footer.html
+	- header.html
+	- index.html
+
+[GIN-debug] POST   /login                    --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /api/videos               --> main.main.func2 (4 handlers)
+[GIN-debug] POST   /api/videos               --> main.main.func3 (4 handlers)
+[GIN-debug] PUT    /api/videos/:id           --> main.main.func4 (4 handlers)
+[GIN-debug] DELETE /api/videos/:id           --> main.main.func5 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /view/videos              --> gilab.com/pragmaticreviews/golang-gin-poc/controller.VideoController.ShowAll-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :5000
+::1 - [2021-12-23 12:38:07.9656446 +0530 IST m=+25.656699801] GET /swagger/index.html 200 507µs
+::1 - [2021-12-23 12:38:08.0075324 +0530 IST m=+25.698587601] GET /swagger/swagger-ui.css 200 995.5µs
+::1 - [2021-12-23 12:38:08.0075324 +0530 IST m=+25.698587601] GET /swagger/swagger-ui-bundle.js 200 1.9944ms
+::1 - [2021-12-23 12:38:08.0085303 +0530 IST m=+25.699585501] GET /swagger/swagger-ui-standalone-preset.js 200 997.9µs
+::1 - [2021-12-23 12:38:08.2683896 +0530 IST m=+25.959444801] GET /swagger/doc.json 200 775.7µs
+::1 - [2021-12-23 12:38:08.3597832 +0530 IST m=+26.050838401] GET /swagger/favicon-32x32.png 200 0s
